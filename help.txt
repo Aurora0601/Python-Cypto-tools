@@ -1,0 +1,141 @@
+python密码学脚本帮助文档
+使用方法：输入python base16off.py即可运行base16解密
+以下是对照表
+编码
+base加解密
+1.base16off.py     base16解密
+2.base16up.py     base16加密
+3.base32off.py     base32解密
+4.base32up.py     base32加密
+5.base36off.py     base36解密
+6.base36up.py     base36加密
+7.base58off.py     base58解密
+8.base58up.py     base58加密
+9.base62off.py     base62解密
+10.base62up.py     base62加密
+11.base64off.py     base64解密
+12.base64up.py     base64加密
+13.base85off.py     base85解密
+14.base85up.py     base85加密
+15.base91off.py     base91解密
+16.base91up.py     base91加密
+17.base92off.py     base92解密
+18.base92up.py     base92加密
+其他编码
+1.hex off   hex解码
+2.hex up   hex编码
+3.ROT5 off   ROT5解密
+4.ROT5 up   ROT5解码
+5.ROT13 off   ROT13解密
+6.ROT13 up   ROT13解码
+7.ROT18 off   ROT18解密
+8.ROT18 up   ROT18解码
+9.ROT47 off   ROT47解密
+10.ROT47 up   ROT47解码
+11.Tap Code off  敲击码解密
+12.Tap Code up  敲击码加密
+13.Unicode off    Unicode解码
+14.Unicode up    Unicode编码
+15.UrlBase64 off  UrlBase64解码
+16.UrlBase64 up UrlBase64编码
+17.UrlEncode off  UrlEncode解码
+18.UrlEncode up   UrlEncode编码
+19.UTF8 off      UTF8解码
+20.UTF8 up      UTF8编码
+21.UTF16 off    UTF16解码
+22.UTF16 up    UTF16编码
+23.Binary up     将字符转二进制
+24.Binary off     将二进制转字符
+25.ASCLL-STRING   将ASCLL码转字符串
+26.STRING-ASCLL   将字符串转ASCLL码
+古典密码加解密
+1.Affine Cipher off    仿射密码解密
+2.Affine Cipher up    仿射密码加密
+3.Atbash Cipher        埃特巴什码（加解密同一个）
+4.Bacon's Cipher off 培根密码解密
+5.Bacon's Cipher up 培根密码加密
+6.Caesar Cipher off   凯撒密码解密
+7.Caesar Cipher up   凯撒密码加密
+8.Morse Code off     摩斯密码加密
+9.Morse Code up     摩斯密码解密
+10.Playfair Cipher off  曲路密码解密
+11.Playfair Cipher up  曲路密码加密
+12.Playfair off    Playfair加密
+13.Playfair up    Playfair解密
+14.Polybius off  方块密码解密
+15.Polybius up  方块密码加密
+16.Rail Fence Cipher off  栅栏密码解密
+17.Rail Fence Cipher up  栅栏密码加密
+18.Vigenère Cipher off    维吉尼亚密码解密
+19.Vigenère Cipher up    维吉尼亚密码加密
+20.ZUC Cipher off      祖冲之密码解密
+21.ZUC Cipher up      祖冲之密码加密
+哈希加密
+1.MD5 up  MD5加密
+2.SHA1 up  SHA1加密
+3.SHA224 up  SHA224加密
+4.SHA256 up  SHA256加密
+5.SHA384 up  SHA384加密
+6.SHA512 up  SHA512加密
+7.HmacSHA1 up  HmacSHA1加密
+8.HmacSHA224 up  HmacSHA224加密
+9.HmacSHA256 up  HmacSHA256加密
+10.HmacSHA384 up  HmacSHA384加密
+11.HmacSHA512 up  HmacSHA512加密
+12.Shacal up   Shacal加密
+13Shacal off   注：验证完整性和真实性
+对称加解密
+1.SMS4 up  SMS4加密
+2.SMS4 off  SMS4解密
+3.DES up     DES加密
+4.DES off     DES解密
+5.3DES up   3DES加密
+6.3DES off   3DES解密
+7.AES up      AES加密
+8.AES off    AES加密
+9.RC2 up    RC2加密
+10.RC2 off    RC2解密
+11.RC4 up    RC4加密
+12.RC4 off    RC4加密
+13.XOR up    异或加密
+14.XOR off    异或解密
+15.Zuc128 up  Zuc128加密
+16.Zuc128 off  Zuc128解密
+17.Salsa20 up   Salsa20加密
+18.Salsa20 off   Salsa20解密
+19.OCB up   OCB模式加密
+20.OCB off   OCB模式解密
+21.OFB up    OFB模式加密
+22.OFB off    OFB模式解密
+23.HC128.HC256 up   HC128.HC256加密
+24.HC128.HC256 off   HC128.HC256解密
+25.Grainv1 up    Grainv1 加密
+26.Grainv1 off    Grainv1解密
+27.Grain-128 up   Grain-128加密
+28.Grain-128 off   Grain-128解密
+29.GCM up   GCM加密
+30.GCM off   GCM解密
+31.ECB up     ECB加密
+32.ECB off     ECB解密
+33.EAX up     EAX加密
+34.EAX off     EAX解密
+35.CTS up     CTS加密
+36.CTS off     CYS解密
+37.ChaCha up   ChaCha加密
+38.ChaCha off   ChaCha解密
+39.CFB up    CFB加密
+40.CFB off    CFB解密
+41.CCM up   CCM加密
+42.CCM off   CCM解密
+43.CBC up     CBC加密
+44.CBC off     CBC解密
+45.BLOWFISH up   BLOWFISH加密
+46.BLOWFISH off   BLOWFISH解密
+非对称加密
+1.RSA  RSA加密
+2.SM2  SM2加密
+3.ECC   ECC加密
+其他
+1.Radix Conversion   进制转换
+2.reverse order         字符串倒序
+您可以随时使用python main.py来查看帮助文档，祝您使用愉快！
