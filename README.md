@@ -380,3 +380,6 @@ base加解密
 2.reverse order         字符串倒序
 
 您可以随时使用python main.py来查看帮助文档，祝您使用愉快！
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Aurora0601/Python-Cypto-tools&type=Date)](https://star-history.com/#Aurora0601/Python-Cypto-tools&Date)
